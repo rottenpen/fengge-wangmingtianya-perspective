@@ -84,6 +84,28 @@ git clone https://github.com/rottenpen/fengge-wangmingtianya-perspective.git
 
 然后按你使用的客户端或本地 skill 目录规则，把 `SKILL.md` 和 `references/` 放到对应的 skills 路径中使用。
 
+一个常见做法是把整个目录放到本地 skills 目录，例如：
+
+```text
+~/.codex/skills/fengge-wangmingtianya-perspective/
+```
+
+或：
+
+```text
+~/.claude/skills/fengge-wangmingtianya-perspective/
+```
+
+目录里至少应包含：
+
+```text
+fengge-wangmingtianya-perspective/
+├── SKILL.md
+└── references/
+```
+
+如果你的客户端支持从本地目录加载 skill，放好后重启客户端或刷新 skills 列表即可。
+
 如果后续接入技能市场或支持远程安装的平台，再补充一键安装命令。
 
 ## 触发方式
