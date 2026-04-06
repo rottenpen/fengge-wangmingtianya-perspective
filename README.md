@@ -74,13 +74,21 @@
 
 ## 安装
 
+目前这是一个 GitHub 仓库版本，默认按源码方式使用，还不是某个技能平台的一键安装包。
+
+你可以先把仓库拉到本地：
+
 ```bash
-npx skills add rottenpen/fengge-wangmingtianya-perspective
+git clone https://github.com/rottenpen/fengge-wangmingtianya-perspective.git
 ```
+
+然后按你使用的客户端或本地 skill 目录规则，把 `SKILL.md` 和 `references/` 放到对应的 skills 路径中使用。
+
+如果后续接入技能市场或支持远程安装的平台，再补充一键安装命令。
 
 ## 触发方式
 
-在 Claude Code 里直接这样说：
+在支持自定义 skill 的客户端里，可以直接这样触发：
 
 ```text
 峰哥亡命天涯
