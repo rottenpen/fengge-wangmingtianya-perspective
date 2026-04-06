@@ -1,0 +1,55 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="96" y1="40" x2="1128" y2="596" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#181411"/>
+      <stop offset="0.45" stop-color="#2E2118"/>
+      <stop offset="1" stop-color="#5B3A24"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="988" y1="132" x2="296" y2="487" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7D08A"/>
+      <stop offset="1" stop-color="#E08A3D"/>
+    </linearGradient>
+    <filter id="blur" x="0" y="0" width="1280" height="640" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="36"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" rx="28" fill="url(#bg)"/>
+
+  <g opacity="0.28" filter="url(#blur)">
+    <circle cx="1038" cy="144" r="116" fill="#F2B35C"/>
+    <circle cx="236" cy="554" r="128" fill="#A9642C"/>
+    <circle cx="658" cy="346" r="96" fill="#7A4A2A"/>
+  </g>
+
+  <path d="M1044 92C989 142 975 191 984 248C994 309 1027 352 1067 388C1112 428 1165 472 1188 548" stroke="url(#accent)" stroke-width="6" stroke-linecap="round" opacity="0.65"/>
+  <path d="M1095 103C1067 136 1054 174 1050 223C1046 278 1069 329 1114 373" stroke="#EFC57B" stroke-width="2.5" stroke-linecap="round" opacity="0.65"/>
+
+  <rect x="66" y="56" width="1148" height="528" rx="24" stroke="rgba(255,255,255,0.12)"/>
+
+  <text x="102" y="126" fill="#EFC57B" font-size="18" font-family="Georgia, 'Times New Roman', serif" letter-spacing="5">ROTTENPEN SKILL</text>
+
+  <text x="100" y="240" fill="#F7F1E8" font-size="74" font-weight="700" font-family="'PingFang SC','Noto Serif SC','Source Han Serif SC',serif">
+    峰哥亡命天涯
+  </text>
+  <text x="100" y="320" fill="#F0C17A" font-size="74" font-weight="700" font-family="'PingFang SC','Noto Serif SC','Source Han Serif SC',serif">
+    Skill
+  </text>
+
+  <text x="104" y="392" fill="#E7DCCF" font-size="26" font-family="'PingFang SC','Noto Sans SC',sans-serif">
+    漂泊江湖感 · 现实主义去魅 · 黑色幽默
+  </text>
+
+  <text x="104" y="456" fill="#F6E8D2" font-size="30" font-family="'PingFang SC','Noto Serif SC','Source Han Serif SC',serif">
+    “这事儿听着惨，但我跟你说，这是个好事儿。”
+  </text>
+
+  <text x="104" y="516" fill="#CFB79C" font-size="20" font-family="'PingFang SC','Noto Sans SC',sans-serif">
+    用更狠、更接地气的方式，点评情感、职场和人生困惑
+  </text>
+
+  <g opacity="0.92">
+    <rect x="96" y="544" width="166" height="40" rx="20" fill="rgba(255,255,255,0.08)"/>
+    <text x="126" y="570" fill="#F7F1E8" font-size="18" font-family="'PingFang SC','Noto Sans SC',sans-serif">虚构风格 Skill</text>
+  </g>
+</svg>
