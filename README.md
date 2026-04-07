@@ -74,9 +74,13 @@
 
 ## 安装
 
-目前这是一个 GitHub 仓库版本，默认按源码方式使用，还不是某个技能平台的一键安装包。
+如果你使用的 `skills` CLI 支持从 GitHub 安装，可以直接：
 
-你可以先把仓库拉到本地：
+```bash
+npx skills add https://github.com/rottenpen/fengge-wangmingtianya-perspective
+```
+
+如果你的环境不支持这条命令，再使用源码方式：
 
 ```bash
 git clone https://github.com/rottenpen/fengge-wangmingtianya-perspective.git
@@ -105,8 +109,6 @@ fengge-wangmingtianya-perspective/
 ```
 
 如果你的客户端支持从本地目录加载 skill，放好后重启客户端或刷新 skills 列表即可。
-
-如果后续接入技能市场或支持远程安装的平台，再补充一键安装命令。
 
 ## 触发方式
 
